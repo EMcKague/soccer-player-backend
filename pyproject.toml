@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flask-server"
+version = "0.1.0"
+description = ""
+authors = ["EMcKague <evan.mckague@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flask_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.2.2"
+Flask-Cors = "^3.0.10"
+pydantic = "^1.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
